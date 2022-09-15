@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles1.css">
+    <link rel="stylesheet" href="styles2.css">
+    <title>Login</title>
+</head>
+<body>
+    <div class="conteiner ">
+        <div class="content-p2 flex center colum">
+            <h1 class="title-b flex center colum margin">Sign Up</h1>
+            <div class="flex border register center colum"> 
+                    <img class="user"src="/images/user.png" alt="">
+                    <div class="border box-inputs margin">
+                        <form class="box-inputs flex center colum" onsubmit="console.log('Email: ' + email.value + ' password: ' + password.value); return false">
+                            <p class="subtitle-b flex center">Email</p>
+                            <input id="email" class="inputs border margin" type="email" placeholder="enter your email@example.com">
+                            <p class="subtitle-b flex center">Password</p>
+                            <input id="password center" class="inputs  margin" type="password">
+                            <input class="b-submit margin" type="submit"  value="Sign In">
+                        </form>
+                    </div>
+            </div>
+            <footer class="flex center margin">
+                <h1 class="contact-b" ><a class="border contact-b title list" href="parte1.html">back</a> 
+                </h1> 
+            </footer>
+        </div>
+    </div>
+</body>
+</html>
